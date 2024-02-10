@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("fonts-Open_Sans/OpenSans-Regular.woff2") format("woff2"),
+    url("fonts-Open_Sans/OpenSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(20, 20, 20, 1);
+  position: relative;
+}
+
+main .pr__nav-logo {
+  display: block;
+  padding: 2rem 4rem;
+}
+
+.header {
+  font-size: 3rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+main .container {
+  width: 90%;
+  height: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 4rem;
+}
+
+.pr_avater-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  /* position: relative; */
+}
+
+.pr-p {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  color: rgba(109, 109, 110, 0.7);
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.pad {
+  padding: 4rem 0rem;
+}
+
+.pr-link-container {
+  display: flex;
+  justify-content: center;
+}
+
+.pr-link {
+  display: inline-block;
+  text-decoration: none;
+  color: rgba(128, 128, 128, 1);
+  padding: 1rem 3rem;
+  margin-top: 4rem;
+  border: 1px solid rgba(128, 128, 128, 1);
+}
