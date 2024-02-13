@@ -141,7 +141,7 @@ input[type="number"]::placeholder {
 
 .sign-up__footer {
   width: 100vw;
-  height: 20vh;
+  height: 24vh;
   background-color: rgba(0, 0, 0, 0.75);
   position: absolute;
   bottom: 0;
